@@ -12,108 +12,9 @@
         "#7d3c8e"
       ]
     },
-    "uniqCompNum": 2
+    "uniqCompNum": 4
   },
   "pages": {
-    "Faculty of Educatio": {
-      "settings": {
-        "title": "Education Faculty's Gallery",
-        "meta_descr": "Images and videos related to the Education Department"
-      },
-      "components": [
-        {
-          "_name": "gallery1",
-          "_params": {
-            "fullWidth": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "noGutter": false,
-            "showText": false,
-            "showBullets": true,
-            "bgColor": "#333439",
-            "images": [
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/5-960x720-62-960x720-64.jpg",
-                "image": "@PROJECT_PATH@/assets/images/5-960x720-62.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/7-2048x1467-5-2000x1433-45.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7-2048x1467-5.jpg",
-                "active": true
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/8-2048x1392-81-2000x1359-27.jpg",
-                "image": "@PROJECT_PATH@/assets/images/8-2048x1392-81.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/4-2048x1389-95-2000x1356-42.jpg",
-                "image": "@PROJECT_PATH@/assets/images/4-2048x1389-95.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/science-expo-2026x1499-92-2000x1480-82.jpg",
-                "image": "@PROJECT_PATH@/assets/images/science-expo-2026x1499-92.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/prize-carousel-640x360-2-640x360-53.jpg",
-                "image": "@PROJECT_PATH@/assets/images/prize-carousel-640x360-2.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/10-1879x820-91-1879x820-4.jpg",
-                "image": "@PROJECT_PATH@/assets/images/10-1879x820-91.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/2-2048x1173-27-2000x1146-36.jpg",
-                "image": "@PROJECT_PATH@/assets/images/2-2048x1173-27.jpg",
-                "active": false
-              }
-            ]
-          },
-          "_anchor": "gallery1-4",
-          "articleLayout": false
-        },
-        {
-          "_styles": {
-            "SMALL": {
-              "text-align": "center"
-            }
-          },
-          "_name": "video2",
-          "_anchor": "video2-6",
-          "media": {
-            "image": {
-              "src": "images/slide3.jpg",
-              "class": "mbr-figure__img",
-              "width": 1400
-            },
-            "video": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "src": "https://player.vimeo.com/video/222002642",
-              "aspectratio": "4:3",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "_params": {
-            "showText": true
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free."
-        }
-      ]
-    },
-    "Faculty of Humanities": {
-      "settings": {
-        "title": "Humanities Gallery",
-        "meta_descr": "Images and videos from the humanities faculty"
-      },
-      "components": []
-    },
     "Rhodes Gallery": {
       "settings": {
         "main": true,
@@ -373,6 +274,245 @@
           }
         }
       ]
+    },
+    "law.html": {
+      "settings": {
+        "meta_descr": "Images and videos related to the Law Faculty",
+        "title": "Faculty of Law ",
+        "order": 4
+      },
+      "components": [
+        {
+          "_name": "contacts3",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1-2048x1365-24.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#474549",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "text1": "<strong>ADDRESS</strong><br>Rhodes University\n<br>PO Box 94\n<br>Grahamstown 6140\n<br>South Africa\n<br>\n<br>\n<strong>CONTACTS</strong><br>phone +27 46 603 8111\n<br>phone +27 46 603 7350 - Fax\n<br>email Registrar\n<br>email Communications\n<br>email Webmaster<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><b>QUICKLINKS</b></p><p class=\"mbr-contacts__text\"><b>Admissions\n</b></p><p class=\"mbr-contacts__text\"><b>Research\n</b></p><p class=\"mbr-contacts__text\"><b>Faculties\n</b></p><p class=\"mbr-contacts__text\"><b>Departments\n</b></p><p class=\"mbr-contacts__text\"><b>Intranet</b></p>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": false,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "contacts3-2"
+        }
+      ]
+    },
+    "education.Faculty of Educatio": {
+      "settings": {
+        "title": "Faculty of Education",
+        "meta_descr": "Images and videos related to the Education Faculty",
+        "order": 5
+      },
+      "components": [
+        {
+          "_name": "gallery1",
+          "_params": {
+            "fullWidth": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "noGutter": false,
+            "showText": false,
+            "showBullets": true,
+            "bgColor": "#333439",
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/5-960x720-62-960x720-64.jpg",
+                "image": "@PROJECT_PATH@/assets/images/5-960x720-62.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/7-2048x1467-5-2000x1433-45.jpg",
+                "image": "@PROJECT_PATH@/assets/images/7-2048x1467-5.jpg",
+                "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/8-2048x1392-81-2000x1359-27.jpg",
+                "image": "@PROJECT_PATH@/assets/images/8-2048x1392-81.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/4-2048x1389-95-2000x1356-42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-2048x1389-95.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/science-expo-2026x1499-92-2000x1480-82.jpg",
+                "image": "@PROJECT_PATH@/assets/images/science-expo-2026x1499-92.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/prize-carousel-640x360-2-640x360-53.jpg",
+                "image": "@PROJECT_PATH@/assets/images/prize-carousel-640x360-2.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/10-1879x820-91-1879x820-4.jpg",
+                "image": "@PROJECT_PATH@/assets/images/10-1879x820-91.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/2-2048x1173-27-2000x1146-36.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2-2048x1173-27.jpg",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery1-4",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            "SMALL": {
+              "text-align": "center"
+            }
+          },
+          "_name": "video2",
+          "_anchor": "video2-6",
+          "media": {
+            "image": {
+              "src": "images/slide3.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "src": "https://player.vimeo.com/video/222002642",
+              "aspectratio": "4:3",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "_params": {
+            "showText": true
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        }
+      ]
+    },
+    "humanities.Faculty of Humanities": {
+      "settings": {
+        "title": "Faculty of Humanities",
+        "meta_descr": "Images and videos from the humanities faculty",
+        "order": 6
+      },
+      "components": []
+    },
+    "page4.html": {
+      "settings": {
+        "meta_descr": "Images and videos related to the Commerce Faculty",
+        "title": "Faculty of Commerce",
+        "order": 3
+      },
+      "components": [
+        {
+          "_name": "contacts3",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1-2048x1365-24.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#474549",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "text1": "<strong>ADDRESS</strong><br>Rhodes University\n<br>PO Box 94\n<br>Grahamstown 6140\n<br>South Africa\n<br>\n<br>\n<strong>CONTACTS</strong><br>phone +27 46 603 8111\n<br>phone +27 46 603 7350 - Fax\n<br>email Registrar\n<br>email Communications\n<br>email Webmaster<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><b>QUICKLINKS</b></p><p class=\"mbr-contacts__text\"><b>Admissions\n</b></p><p class=\"mbr-contacts__text\"><b>Research\n</b></p><p class=\"mbr-contacts__text\"><b>Faculties\n</b></p><p class=\"mbr-contacts__text\"><b>Departments\n</b></p><p class=\"mbr-contacts__text\"><b>Intranet</b></p>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": false,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "contacts3-3"
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "meta_descr": "Images and videos related to the Science Faculty",
+        "title": "Faculty of Science",
+        "order": 2
+      },
+      "components": []
+    },
+    "page6.html": {
+      "settings": {
+        "meta_descr": "Images and videos related to the Pharmacy Faculty",
+        "title": "Faculty of Pharmacy",
+        "order": 1
+      },
+      "components": []
     }
   }
 }

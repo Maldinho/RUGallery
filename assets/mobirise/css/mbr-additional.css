@@ -1,6 +1,3 @@
-#video2-6 SMALL {
-  text-align: center;
-}
 #header4-0 H1 {
   color: #ffffff;
 }
@@ -14,5 +11,14 @@
   color: #ffffff;
 }
 #contacts3-1 P {
+  text-align: left;
+}
+#contacts3-2 P {
+  text-align: left;
+}
+#video2-6 SMALL {
+  text-align: center;
+}
+#contacts3-3 P {
   text-align: left;
 }
