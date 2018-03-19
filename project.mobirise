@@ -1,0 +1,378 @@
+{
+  "settings": {
+    "currentPage": "Rhodes Gallery",
+    "versionFirst": "2.6.1",
+    "versionPublish": "4.6.6",
+    "name": "Image Gallery",
+    "favicon": "@PROJECT_PATH@/assets/images/android-chrome-72x72-72x72-69.png",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "theme": {
+      "additionalSetColors": [
+        "#7d3c8e"
+      ]
+    },
+    "uniqCompNum": 2
+  },
+  "pages": {
+    "Faculty of Educatio": {
+      "settings": {
+        "title": "Education Faculty's Gallery",
+        "meta_descr": "Images and videos related to the Education Department"
+      },
+      "components": [
+        {
+          "_name": "gallery1",
+          "_params": {
+            "fullWidth": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "noGutter": false,
+            "showText": false,
+            "showBullets": true,
+            "bgColor": "#333439",
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/5-960x720-62-960x720-64.jpg",
+                "image": "@PROJECT_PATH@/assets/images/5-960x720-62.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/7-2048x1467-5-2000x1433-45.jpg",
+                "image": "@PROJECT_PATH@/assets/images/7-2048x1467-5.jpg",
+                "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/8-2048x1392-81-2000x1359-27.jpg",
+                "image": "@PROJECT_PATH@/assets/images/8-2048x1392-81.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/4-2048x1389-95-2000x1356-42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-2048x1389-95.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/science-expo-2026x1499-92-2000x1480-82.jpg",
+                "image": "@PROJECT_PATH@/assets/images/science-expo-2026x1499-92.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/prize-carousel-640x360-2-640x360-53.jpg",
+                "image": "@PROJECT_PATH@/assets/images/prize-carousel-640x360-2.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/10-1879x820-91-1879x820-4.jpg",
+                "image": "@PROJECT_PATH@/assets/images/10-1879x820-91.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/2-2048x1173-27-2000x1146-36.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2-2048x1173-27.jpg",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery1-4",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            "SMALL": {
+              "text-align": "center"
+            }
+          },
+          "_name": "video2",
+          "_anchor": "video2-6",
+          "media": {
+            "image": {
+              "src": "images/slide3.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400
+            },
+            "video": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "src": "https://player.vimeo.com/video/222002642",
+              "aspectratio": "4:3",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "_params": {
+            "showText": true
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        }
+      ]
+    },
+    "Faculty of Humanities": {
+      "settings": {
+        "title": "Humanities Gallery",
+        "meta_descr": "Images and videos from the humanities faculty"
+      },
+      "components": []
+    },
+    "Rhodes Gallery": {
+      "settings": {
+        "main": true,
+        "title": "Rhodes Gallery",
+        "meta_descr": "Test RU Gallery",
+        "header_custom": "",
+        "footer_custom": ""
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "header4-0",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1-2048x1365-78.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "RHODES UNIVERSITY GALLERY",
+          "text": "<p>A repository of images and videos .</p>",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-success\" href=\"Faculty of Educatio\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Education</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning\" href=\"Faculty of Humanities\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Humanities</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"Faculty of Humanities\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Law</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-primary\" href=\"Faculty of Humanities\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Commerce</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"Faculty of Humanities\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Pharmacy</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"Faculty of Humanities\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Science</a>"
+        },
+        {
+          "_name": "image1",
+          "_anchor": "image1-3",
+          "_params": {
+            "showText": true,
+            "outside": false,
+            "bgColor": "#252525"
+          },
+          "media": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/3-960x640-58.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "General Media Gallery",
+              "alt": "",
+              "title": "Media Gallery",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=7bctuWQ-Er0",
+              "active": true,
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_params": {
+            "fullWidth": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "noGutter": true,
+            "showText": false,
+            "showBullets": true,
+            "bgColor": "#4c6972",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/dr-mabizela-inauguration-25-540x360.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dr-mabizela-inauguration-25-540x360-540x360.jpg",
+                "alt": "Prof Nyokong",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/robynne-academic-march-against-rape-grocotts-588x392.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/robynne-academic-march-against-rape-grocotts-588x392-588x392.jpg",
+                "alt": "Guard of honor",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/on-stage-540x360.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/on-stage-540x360-540x360.jpg",
+                "alt": "Capping ",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/rhodes-heads-540x360.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/rhodes-heads-540x360-540x360.jpg",
+                "alt": "Group Photo",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dr-mabizela-inauguration-1-540x360.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dr-mabizela-inauguration-1-540x360-540x360.jpg",
+                "alt": "choir",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sizwe-mabizela-city-press-630x419.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sizwe-mabizela-city-press-630x419-630x419.jpg",
+                "alt": "Infront of the clocktower",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dr-mabizela-inauguration-3-540x360.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dr-mabizela-inauguration-3-540x360-540x360.jpg",
+                "alt": "The band",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/inauguration-dinner-13-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/inauguration-dinner-13-2000x1333-800x533.jpg",
+                "alt": "Dinner",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-1"
+        },
+        {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#7d3c8e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=mqHykH83xaE",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            }
+          },
+          "title": "RHODES HONORS &amp;CELEBRATES \"Bra HUGH\"",
+          "meta": "By SABC DIGITAL NEWS, 09 April 2015",
+          "text": "<p>Legendary musician Hugh Masekela has urged the youth to deal with problems facing society instead of focusing their energy on destroying statues.\n</p><p>He received a an honorary doctorate in music from Rhodes University in 2015....</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-0"
+        },
+        {
+          "_name": "contacts3",
+          "_anchor": "contacts3-1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1-2048x1365-24.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#474549",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "text1": "<strong>ADDRESS</strong><br>Rhodes University\n<br>PO Box 94\n<br>Grahamstown 6140\n<br>South Africa\n<br>\n<br>\n<strong>CONTACTS</strong><br>phone +27 46 603 8111\n<br>phone +27 46 603 7350 - Fax\n<br>email Registrar\n<br>email Communications\n<br>email Webmaster<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><b>QUICKLINKS</b></p><p class=\"mbr-contacts__text\"><b>Admissions\n</b></p><p class=\"mbr-contacts__text\"><b>Research\n</b></p><p class=\"mbr-contacts__text\"><b>Faculties\n</b></p><p class=\"mbr-contacts__text\"><b>Departments\n</b></p><p class=\"mbr-contacts__text\"><b>Intranet</b></p>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": false,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
